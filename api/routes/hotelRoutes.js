@@ -11,11 +11,18 @@ module.exports = function(app) {
   *   Hotel:
   *     properties:
   *       name:
-  *         type: string
+  *         type: string,
+  *         default: 'Hotel California'
   *       stars:
   *         type: integer
+  *         default: '4'
   *       price:
   *         type: integer
+  *         default: '400'
+  *       images:
+  *         type: array
+  *         items: string
+  *         default: ['image1','image2']
   */
 
 /**

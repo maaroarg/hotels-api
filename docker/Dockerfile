@@ -12,6 +12,6 @@ RUN rm -rf node_modules/
 
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 9090
 
 CMD npm run start
