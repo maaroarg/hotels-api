@@ -2,7 +2,7 @@
 
 apt-get install mongodb-clients -y
 
-mongoimport -h db -d hotels -c hotels hotels-dump.json
+mongoimport -h db -d hotels -c hotels --drop --file hotels-dump.json
 
 rm -rf node_modules/
 

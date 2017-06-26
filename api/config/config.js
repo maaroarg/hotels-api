@@ -4,7 +4,7 @@
 
 module.exports = {
   db: {
-    url : 'mongodb://hotel-mongo:27017/hotels'
+    url : 'mongodb://hotels-mongo:27017/hotels'
  },
  app: {
    port :  process.env.PORT || 9090
