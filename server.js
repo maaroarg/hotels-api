@@ -23,6 +23,12 @@ mongoose.connect(config.db.url);
 
 //Middlewares
 app.use(bodyParser.json());
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 
 //Init routing
 const routes = require('./api/routes/hotelRoutes');
