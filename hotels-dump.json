@@ -1,6 +1,6 @@
-{"name": "Hotel Eleven", "price": 1700, "stars": 5 , "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'] }
-{"name": "Hotel La Boca", "price": 1020, "stars": 4, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'] }
-{"name": "Hotel Monumental", "price": 200, "stars": 5, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'] }
-{"name": "Hotel Bistro", "price": 560, "stars": 1, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'] }
-{"name": "Hotel Nogaro", "price": 800, "stars": 2, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'] }
-{"name": "Hotel BA", "price": 1200, "stars": 4, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'] }
+{"name": "Hotel Eleven", "price": 1700, "stars": 5 , "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'], "isRecommended":true }
+{"name": "Hotel La Boca", "price": 1020, "stars": 4, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'], "isRecommended":true }
+{"name": "Hotel Monumental", "price": 200, "stars": 5, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'], "isRecommended":false }
+{"name": "Hotel Bistro", "price": 560, "stars": 1, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'], "isRecommended":false }
+{"name": "Hotel Nogaro", "price": 800, "stars": 2, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'], "isRecommended":false }
+{"name": "Hotel BA", "price": 1200, "stars": 4, "images" :['http://lorempixel.com/320/200/nature/','http://lorempixel.com/320/200/nature/'], "isRecommended":false }
