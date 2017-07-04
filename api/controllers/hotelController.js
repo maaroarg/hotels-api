@@ -3,9 +3,9 @@
 const mongoose = require('mongoose');
 const Hotel = mongoose.model('Hotel');
 
-exports.listHotels = function( req , res ){
+exports.listHotels = ( req , res ) => {
 
-  Hotel.find( {} , function( err , hotels ){
+  Hotel.find( {} , ( err , hotels ) => {
     if( err ){
       res.send( err );
     }
@@ -13,10 +13,10 @@ exports.listHotels = function( req , res ){
   });
 };
 
-exports.createHotel = function( req, res ) {
+exports.createHotel = ( req, res ) => {
 
-  let new_hotel = new Hotel(req.body);
-  new_hotel.save(function(err, hotel) {
+  const new_hotel = new Hotel(req.body);
+  new_hotel.save((err, hotel) => {
     if (err){
       res.send(err);
     }

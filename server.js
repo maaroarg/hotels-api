@@ -7,7 +7,7 @@ const express = require('express');
 const path = require('path');
 
 //Init swagger-jsdoc
-let swaggerSpec = swaggerJSDoc(config.swagger);
+const swaggerSpec = swaggerJSDoc(config.swagger);
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/swagger.json', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
@@ -15,4 +15,6 @@ app.get('/swagger.json', function(req, res) {
 });
 
 //Init server
-app.listen(config.app.port, () => {console.log(`Server running... port:${config.app.port}`)});
+app.listen(config.app.port,
+  () => {console.log(`Server running... port:${config.app.port}`);}
+);
